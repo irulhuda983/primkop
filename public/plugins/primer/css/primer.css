@@ -1,0 +1,37 @@
+a.submenu-transaksi {
+    text-decoration: none;
+    color: gray;
+}
+
+a.submenu-transaksi:hover {
+    text-decoration: none;
+    color: coral;
+}
+
+#menu-transaksi .submenu-transaksi .card:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+a.submenu-transaksi img {
+    width: 100px;
+}
+
+#form-transaksi .card-footer {
+    display: none;
+}
+
+/* #recent-transaksi .log-transaksi {
+    display: flex;
+} */
+
+#recent-transaksi .log-transaksi .box-icon {
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
